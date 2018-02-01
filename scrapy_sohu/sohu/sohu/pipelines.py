@@ -30,8 +30,8 @@ class SohuPipeline(object):
     def open_spider(self, spider):
         self.conn = pymssql.connect(
             host = '192.168.3.152:4000',
-            user = 'sa',
-            password = '123.abc',
+            user = '***',
+            password = '***',
             database = 'BaseData2017',
             charset = 'utf8',
         )
